@@ -1,0 +1,24 @@
+git init
+git add .  OR  git add abc.py
+git commit -m "Your commit message"
+
+git remote add origin <remote_url>
+    eg. git remote add origin https://github.com/TejasBabar1/Practice.git
+
+if already exit remote origin change by command 
+    git remote set-url origin <new_remote_url>
+    eg. git remote set-url origin https://github.com/TejasBabar1/Learn.git
+
+git branch -M main (change github branch)
+
+git push -u origin main
+
+git branch branch_name
+git checkout branch_name
+git merge branch_name
+
+
+after git init
+git config --global user.name --replace-all "Tej-Babar"
+
+git config --global user.email --replace-all "your_email@example.com"
